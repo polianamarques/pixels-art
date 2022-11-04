@@ -3,17 +3,29 @@
 
 #black { border: black 1px solid;
 background-color: black;
-color: azure;
+height: 70px;
+width: 70px;
+margin: 15px;
+
 }
 #lilac {border: black 1px solid;
 background-color: #e0aaff;
+height: 70px;
+width: 70px;
+margin: 15px;
 }
 
 #dark-purple{ border: black 1px solid;
+    height: 70px;
+    width: 70px;
+    margin: 15px;
  background-color:#3c096c;   
- color: azure;
+ 
 }
 
 #light-purple { border: black 1px solid;
 background-color: #9d4edd;
+height: 70px;
+width: 70px;
+margin: 15px;
 }
