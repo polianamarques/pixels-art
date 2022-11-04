@@ -1,0 +1,17 @@
+.color { display: inline-block;
+}
+
+#black { border: black 1px solid;
+background-color: black;
+}
+#lilac {border: black 1px solid;
+background-color: #e0aaff;
+}
+
+#dark-purple{ border: black 1px solid;
+ background-color:#3c096c;   
+}
+
+#light-purple { border: black 1px solid;
+background-color: #9d4edd;
+}
