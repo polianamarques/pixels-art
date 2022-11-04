@@ -3,6 +3,7 @@
 
 #black { border: black 1px solid;
 background-color: black;
+color: azure;
 }
 #lilac {border: black 1px solid;
 background-color: #e0aaff;
@@ -10,6 +11,7 @@ background-color: #e0aaff;
 
 #dark-purple{ border: black 1px solid;
  background-color:#3c096c;   
+ color: azure;
 }
 
 #light-purple { border: black 1px solid;
