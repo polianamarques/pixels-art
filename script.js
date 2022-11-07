@@ -28,13 +28,36 @@ pixelBoard.appendChild(individualPixel).className = 'pixel';
 }
 
  const color = document.getElementsByClassName('color');
+
  function addAndRmvSelector(event){
   const selected = document.querySelector('.selected');
   selected.classList.remove('selected');
   event.target.classList.add('selected');
   }
-  
    for(let colorsOf of color){
     colorsOf.addEventListener('click', addAndRmvSelector);
    }
+//trazendo as cores 
+
+ const black = document.getElementById('black');
+ const darkPurple = document.getElementById('dark-purple');
+ const lilac = document.getElementById('lilac');
+ const lightPurple = document.getElementById('light-purple');
+
+ black.style.backgroundColor = 'black';
+ lightPurple.style.backgroundColor = '#9d4edd';
+ lilac.style.backgroundColor = '#e0aaff';
+ darkPurple.style.backgroundColor = '#3c096c';
+
+ function paintingPixel(evento){
+  const selected = document.querySelector('.selected')
+  evento.target.style.backgroundColor = selected.style.backgroundColor}
+
+  const pixel = document.querySelectorAll('.pixel')
+
+  for (let index = 0; index < pixel.length; index += 1){
+    pixel[index].addEventListener('click',paintingPixel);
+  }
+  
+
  
