@@ -51,7 +51,7 @@ margin: 15px;
 #pixel-board {
     display: flex;
     flex-wrap: wrap;
-    max-width: 17vw;
+    max-width: 210px;
     margin-left: auto;
     margin-right: auto;
 }
