@@ -27,3 +27,7 @@ for(let index = 0; index < 25; index +=1){
 const individualPixel = document.createElement('div');
 pixelBoard. appendChild(individualPixel).className = 'pixel';
 }
+
+function 
+ 
+}
