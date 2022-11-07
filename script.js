@@ -4,6 +4,14 @@ button.innerText = 'Cores aleatórias';
 button.id = 'button-random-color';
 section.appendChild(button);
 
+const buttonClear = document.getElementById('clear-board');
+buttonClear.addEventListener('click',() => {
+ const pixels = document.getElementsByClassName('pixel');
+ for(let pixel of pixels){
+ pixel.style.backgroundColor = 'white';}
+})
+
+
 function generateColor() {
   const letters = '0123456789ABCDEF';
   let color = '#';
