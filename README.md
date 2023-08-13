@@ -1,10 +1,24 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# :elephant: Projeto Zoo Functions
+
+Neste projeto desenvolvi um editor de arte com pixels. 
+
+# :pushpin: Principais stacks desenvolvidas: 
+- HTML e CSS para a estrutura do editor de arte
+- JavaScript para a logica do editor de arte
+
+# :pushpin: Rodando localmente
+- Clone o repositório.
+```bash
+  git clone git@github.com:polianamarques/pixels-art.git
+```
+- Instale as dependências e inicie o projeto:
+```bash
+  npm install
+```
+Para a execusão no navegador, foi utilizada a extensão "Live Server".
+
+
+### Contato: 
+<div align=""> <br> <a href = "mailto:contatopolianamarques@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/poliana-marques-56b8b118b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div> 
