@@ -1,4 +1,4 @@
-# :elephant: Projeto Zoo Functions
+# :art: Projeto Pixels Art 
 
 Neste projeto desenvolvi um editor de arte com pixels. 
 
