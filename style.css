@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-image: url("fundo.jpg") ;
 }
 
 .color { display: inline-block;
@@ -34,11 +35,13 @@ width: 70px;
 margin: 15px;
 }
 #button-random-color {
+    background-color: #85e8dd;
+    border-radius: 40px;
     display:block;
- margin-left: auto;
- margin-right: auto;
- margin-top: 10px;
- margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #clear-board {
